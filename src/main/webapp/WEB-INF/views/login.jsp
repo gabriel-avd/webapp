@@ -3,6 +3,14 @@
 <title>Yahoo!!</title>
 </head>
 <body>
-My First JSP!!! My name is ${name}
+
+<p><font color="red">${errorMessage}</font></p>
+
+<form action="/login.do" method="post">
+	Name: <input type="text" name="name"/>
+	Password: <input type="password" name="password"/>
+	<input type="submit" value="login"/>
+</form>
+
 </body>
 </html>
